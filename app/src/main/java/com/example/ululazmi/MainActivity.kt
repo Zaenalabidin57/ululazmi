@@ -11,34 +11,31 @@ import android.widget.ImageView
 
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var bottomNav: BottomNavigationView
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        loadFragment(fragment_home())
-        bottomNav = findViewById<BottomNavigationView>(R.id.bottomNavigation)!!
-        bottomNav.setOnItemSelectedListener {
-            when (it.itemId) {
-                R.id.navigation_home -> {
-                    loadFragment(fragment_home())
-                    true
-                }
-                R.id.navigation_about -> {
-                    loadFragment(fragment_about)
-                    true
-                }
-                R.id.navigation_quiz -> {
-                    loadFragment(fragment_quiz())
-                    true
-                }
-                else -> false
+
+        val homefragment = HomeFragment()
+        val quizfragment = QuizFragment()
+        val aboutfragment = AboutFragment()
+
+        makeCurrentFragment(homefragment)
+
+
+        val bottomNavigation = findViewById<BottomNavigationView>(R.id.bottomNavigation)
+        bottomNavigation.setOnItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.navigation_home -> makeCurrentFragment(homefragment)
+                R.id.navigation_quiz -> makeCurrentFragment(quizfragment)
+                R.id.navigation_about -> makeCurrentFragment(aboutfragment)
             }
+            true
         }
     }
-    private  fun loadFragment(fragment: Fragment){
-        val transaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.bottomNavigation,fragment)
-        transaction.commit()
+    private fun makeCurrentFragment(fragment: Fragment) {
+        supportFragmentManager.beginTransaction().apply {
+            replace(R.id.fragmentContainer, fragment)
+            commit()
+        }
     }
 }

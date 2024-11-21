@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Ulul Azmi</string>
-    <string name="musa">Prophet Moses (Musa)</string>
+    <string name="musa">Nabi Musa </string>
 
 
-<!--    string halaman nabi Nuh-->
-    <string name="nuh" translatable="false">Nuh ﷺ</string>
+    <!--    string halaman nabi Nuh-->
+    <string name="nuh" translatable="false">Nabi Nuh ﷺ</string>
     <string name="nuh_info1">
        Nabi Nuh bin Lamik bin Metusyalih dari keturunan Idris serta keturunan Nabi Syits bin Adam diperkirakan hidup pada tahun 3993-3043 SM dan diangkat menjadi Nabi pada tahun 3650 SM.
 
@@ -18,8 +18,8 @@ Setelah berdakwah selama 950 tahun lamanya namun tidak ada yang mau mengikuti be
     </string>
 
 
-<!-- String halaman nabi ibrahim-->
-    <string name="ibrahim">Prophet Abraham (Ibrahim)</string>
+    <!-- String halaman nabi ibrahim-->
+    <string name="ibrahim">Nabi Ibrahim</string>
     <string name="ibrahim_info1">
         Nabi Ibrahim bin Azar bin Nahur adalah seorang nabi dari keturunan Sam bin Nuh. Beliau diperkirakan hidup pada tahun 1997-1822 SM dan diangkat menjadi Nabi pada tahun 1900 SM. Beliau tinggal di wilayah yang saat ini dikenal sebagai Irak. Beliau wafat di Al-Khalil, Hebron, Palestina. Nama Ibrahim disebutkan sebanyak 69 kali dalam Al-Quran.
 
@@ -37,8 +37,8 @@ Namun, bertahun-tahun kemudian, masih ada lagi perintah lebih berat yang harus d
     </string>
 
 
-<!--    string halaman nabi isa-->
-    <string name="isa">Prophet Jesus (Isa)</string>
+    <!--    string halaman nabi isa-->
+    <string name="isa">Nabi Isa</string>
     <string name="isa_info1">
         Nabi Isa bin Maryam binti Imran berasal dari keturunan Sulaiman bin Daud. Diperkirakan hidup pada tahun 1 SM-32M dan diangkat menjadi nabi pada tahun 29M. Beliau ditugaskan berdakwah kepada Bani Israil di Palestina.
 
@@ -64,5 +64,7 @@ Artinya:
 
 “Dan karena ucapan mereka: “Sesungguhnya kami telah membunuh Al Masih, Isa putra Maryam, Rasul Allah”, padahal mereka tidak membunuhnya dan tidak (pula) menyalibnya, tetapi (yang mereka bunuh ialah) orang yang diserupakan dengan Isa bagi mereka. Sesungguhnya orang-orang yang berselisih paham tentang (pembunuhan) Isa, benar-benar dalam keragu-raguan tentang yang dibunuh itu. Mereka tidak mempunyai keyakinan tentang siapa yang dibunuh itu, kecuali mengikuti persangkaan belaka, mereka tidak (pula) yakin bahwa yang mereka bunuh itu adalah Isa.”
     </string>
-    <string name="muhammad">Prophet Muhammad (Muhammad)</string>
+    <string name="muhammad">Nabi Muhamad</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

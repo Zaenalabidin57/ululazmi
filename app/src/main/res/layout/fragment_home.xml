@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        android:background="@drawable/islamic_frame">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            style="@style/IslamicTitle"
+            android:layout_marginBottom="32dp"/>
+
+        <Button
+            android:id="@+id/btnNuh"
+            style="@style/IslamicButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/nuh"
+            android:onClick="toNuhActivity"/>
+
+        <Button
+            android:id="@+id/btnIbrahim"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ibrahim"
+            style="@style/IslamicButton"
+            android:layout_marginBottom="16dp"
+            android:onClick="toIbrahimActivity"/>
+
+        <Button
+            android:id="@+id/btnMusa"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/musa"
+            style="@style/IslamicButton"
+            android:layout_marginBottom="16dp"
+            android:onClick="toMusaActivity"/>
+
+        <Button
+            android:id="@+id/btnIsa"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/isa"
+            style="@style/IslamicButton"
+            android:layout_marginBottom="16dp"
+            android:onClick="toIsaActivity"/>
+
+        <Button
+            android:id="@+id/btnMuhammad"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="@string/muhammad"
+            style="@style/IslamicButton"
+            android:layout_marginBottom="16dp"
+            android:onClick="toMuhammadActivity"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="QUIZ"
+            style="@style/IslamicButton"
+            android:layout_marginBottom="16dp"
+            android:onClick="toQuizActivity"/>
+
+        <Button
+            style="@style/IslamicButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Tentang Kami"
+            android:onClick="toAboutActivity" />
+
+    </LinearLayout>
+
+</FrameLayout>

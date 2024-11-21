@@ -42,7 +42,7 @@ class QuizActivity : AppCompatActivity() {
                         true
                     }
                     R.id.navigation_about -> {
-                        startActivity(Intent(this@QuizActivity, fragment_about::class.java))
+                        startActivity(Intent(this@QuizActivity, AboutFragment::class.java))
                         true
                     }
                     else -> true
