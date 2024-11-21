@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <!-- Base Pattern -->
+    <defs>
+        <pattern id="islamicPattern" x="0" y="0" width="25" height="25" patternUnits="userSpaceOnUse">
+            <!-- Geometric Star Pattern -->
+            <path d="M0 12.5L12.5 0L25 12.5L12.5 25Z"
+                fill="none"
+                stroke="#1B5E20"
+                stroke-width="0.5"
+                opacity="0.3"/>
+            <path d="M12.5 0L25 12.5L12.5 25L0 12.5Z"
+                fill="none"
+                stroke="#1B5E20"
+                stroke-width="0.5"
+                opacity="0.3"/>
+            <!-- Center Detail -->
+            <circle cx="12.5" cy="12.5" r="4"
+                fill="none"
+                stroke="#1B5E20"
+                stroke-width="0.5"
+                opacity="0.3"/>
+            <!-- Corner Details -->
+            <path d="M0 0L5 5M20 5L25 0M0 25L5 20M20 20L25 25"
+                stroke="#1B5E20"
+                stroke-width="0.5"
+                opacity="0.3"/>
+        </pattern>
+    </defs>
+
+    <!-- Apply Pattern -->
+    <rect width="100" height="100" fill="url(#islamicPattern)"/>
+</svg>
