@@ -4,24 +4,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="10dp"
+        >
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:fillViewport="true"
+        android:layout_marginBottom="80dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="@drawable/islamic_frame"
-            android:padding="16dp">
+            android:padding="15dp"
+            >
 
             <TextView
                 android:id="@+id/tvProphetName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 style="@style/IslamicTitle"
-                android:text="Tes judul"
+                android:text="@string/nuh"
                 android:layout_gravity="center"
                 android:layout_marginBottom="24dp"/>
             <ImageView
@@ -49,5 +62,5 @@
                 android:textColor="@color/textDark"/>
         </LinearLayout>
     </ScrollView>
-
+    </LinearLayout>
 </FrameLayout>

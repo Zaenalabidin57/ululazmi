@@ -22,23 +22,21 @@
             android:layout_gravity="center"
             android:layout_marginBottom="24dp"/>
 
-<!--        <androidx.cardview.widget.CardView-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_margin="8dp"-->
-<!--            app:cardBackgroundColor="@color/cream"-->
-<!--            app:cardCornerRadius="8dp"-->
-<!--            app:cardElevation="4dp">-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/islamic_frame"
+            android:orientation="vertical"
+            android:padding="16dp">
 
-<!--            <TextView-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:padding="16dp"-->
-<!--                android:textSize="16sp"-->
-<!--                android:lineSpacingExtra="8dp"-->
-<!--                android:textColor="@color/textDark"-->
-<!--                android:text="Ulul Azmi refers to the five most prominent prophets in Islam who showed exceptional patience and determination in their mission. They are: Noah (Nuh), Abraham (Ibrahim), Moses (Musa), Jesus (Isa), and Muhammad (ﷺ). These prophets faced the greatest trials and showed unwavering commitment to Allah's message.\n\nThis app aims to provide comprehensive information about these noble prophets and their significant contributions to humanity's spiritual guidance."/>-->
-<!--        </androidx.cardview.widget.CardView>-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:lineSpacingExtra="8dp"
+                android:textColor="@color/textDark"
+                android:text="Ulul Azmi refers to the five most prominent prophets in Islam who showed exceptional patience and determination in their mission. They are: Noah (Nuh), Abraham (Ibrahim), Moses (Musa), Jesus (Isa), and Muhammad (). These prophets faced the greatest trials and showed unwavering commitment to Allah's message.\n\nThis app aims to provide comprehensive information about these noble prophets and their significant contributions to humanity's spiritual guidance."/>
+        </LinearLayout>
     </LinearLayout>
-
 </FrameLayout>

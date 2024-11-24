@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Ulul Azmi</string>
-    <string name="musa">Nabi Musa </string>
 
 
     <!--    string halaman nabi Nuh-->
@@ -37,6 +36,21 @@ Namun, bertahun-tahun kemudian, masih ada lagi perintah lebih berat yang harus d
     </string>
 
 
+<!--    string halaman nabi musa lupa jir-->
+    <string name="musa">Nabi Musa</string>
+    <string name="musa_info1">
+       Nabi Musa bin Imran berasal dari keturunan Ya’qub bin Ishak. Beliau diperkirakan hidup pada tahun 1527-1408 SM dan diangkat menjadi Nabi pada tahun 1450 SM. Beliau ditugaskan berdakwah kepada Bani Israel di Mesir yang pada saat itu dikuasai Raja Firaun. Beliau wafat di Tanah Tih dan mempunyai 2 orang anak.
+
+Nabi Musa AS menjadi salah satu pemimpin yang mampu bersikap tegas. Beliau lahir di lingkungan istana Raja Firaun dan dibesarkan oleh istri Firaun yang bernama Siti Asiah.
+
+Allah SWT menurunkan wahyu pertama-Nya kepada Nabi Musa AS di Bukit Sinai. Di sinilah kisah Nabi Musa AS bersama saudaranya, Nabi Harun AS, memulai dakwah di hadapan Firaun yang mengakui dirinya sebagai Tuhan.
+
+Namun, Firaun tidak pernah menerima dakwah tersebut, sehingga mereka berdua diusir dari istana. Sejak saat itu, Firaun mengumpulkan para ahli sihir untuk membunuh Nabi Musa AS. Lalu, mukzizat Nabi Musa datang kepadanya, di mana sebuah tongkat yang dibawa Nabi Musa AS dapat menjelma menjadi ular besar yang melahap ular-ular para penyihir Firaun. Firaun pun mengirimkan bala tentaranya untuk membunuh Nabi Musa AS.
+
+Sampai pada akhirnya Nabi Musa bersama kaum Bani Israil berada di tepi lautan merah. Kemudian Allah SWT kembali turunkan mukjizat, yakni beliau diberi kemampuan untuk dapat membelah lautan tersebut dengan tongkat dan menyeberangi lautan untuk menghindar dari kejaran Firaun. Sementara Firaun beserta bala tentaranya tenggalam di Laut Merah.
+
+    </string>
+
     <!--    string halaman nabi isa-->
     <string name="isa">Nabi Isa</string>
     <string name="isa_info1">
@@ -65,6 +79,17 @@ Artinya:
 “Dan karena ucapan mereka: “Sesungguhnya kami telah membunuh Al Masih, Isa putra Maryam, Rasul Allah”, padahal mereka tidak membunuhnya dan tidak (pula) menyalibnya, tetapi (yang mereka bunuh ialah) orang yang diserupakan dengan Isa bagi mereka. Sesungguhnya orang-orang yang berselisih paham tentang (pembunuhan) Isa, benar-benar dalam keragu-raguan tentang yang dibunuh itu. Mereka tidak mempunyai keyakinan tentang siapa yang dibunuh itu, kecuali mengikuti persangkaan belaka, mereka tidak (pula) yakin bahwa yang mereka bunuh itu adalah Isa.”
     </string>
     <string name="muhammad">Nabi Muhamad</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="muhammad_info">
+        <![CDATA[
+        Nabi Muhammad bin Abdullah bin Abdul Muttalib berasal dari keturunan Ismail bin Ibrahim. Diperkirakan hidup pada tahun 571M-632M dan diangkat menjadi Nabi pada tahun 610M. Beliau ditugaskan berdakwah kepada seluruh manusia dan alam semesta.
+
+        Semasa hidupnya, Nabi Muhammad SAW tinggal di Mekkah dan Madinah, kemudian wafat di Madinah dan meninggalkan 7 orang anak. Nabi Muhammad SAW disebutkan namanya sebanyak 5 kali di dalam Al-Quran.
+
+        Kisah Nabi Muhammad menyebutkan bahwa beliau mendapat gelar ulul azmi karena sejak kecil sampai dewasa, beliau selalu mengalami masa-masa sulit. Pada usia 6 tahun, Rasulullah SAW sudah menjadi yatim piatu. Setelah dewasa, beliau harus membantu pamannya yang telah merawatnya sejak kecil. Tantangan terberat yang pernah dihadapi Rasulullah SAW adalah setelah diangkatnya beliau menjadi seorang rasul.
+
+        Ketika berdakwah, penentangan tidak hanya datang dari masyarakat luas, tetapi juga dari Abu Lahab yang juga merupakan pamannya. Rasulullah SAW juga harus menderita tatkala Bani Hasyim diboikot (diasingkan) ke sebuah lembah akibat dakwah yang dilakukan.
+
+        Selain itu, masih banyak lagi kesabaran dan masa-masa sulit yang dihadapi Nabi Muhammad SAW hingga beliau wafat. Mukzizat Nabi Muhammad yang terbesar adalah kitab suci Al-Qur’an, yang hingga kini dijadikan sebagai pedoman hidup bagi seluruh umat Muslim di dunia karena terjamin kebenarannya.
+        ]]>
+    </string>
 </resources>

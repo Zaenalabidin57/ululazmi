@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp"
+        >
+
+
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -68,6 +77,7 @@
             android:onClick="toMuhammadActivity"/>
 
         <Button
+            android:id="@+id/btnQuiz"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:text="QUIZ"
@@ -76,12 +86,15 @@
             android:onClick="toQuizActivity"/>
 
         <Button
+            android:id="@+id/btnAbout"
             style="@style/IslamicButton"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:text="Tentang Kami"
             android:onClick="toAboutActivity" />
+
+    </LinearLayout>
 
     </LinearLayout>
 

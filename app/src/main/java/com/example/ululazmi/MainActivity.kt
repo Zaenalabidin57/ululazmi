@@ -2,12 +2,12 @@ package com.example.ululazmi
 
 import android.widget.Toast
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import java.lang.Exception
 import android.widget.ImageView
-
 
 
 class MainActivity : AppCompatActivity() {
@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         val homefragment = HomeFragment()
         val quizfragment = QuizFragment()
         val aboutfragment = AboutFragment()
+
 
         makeCurrentFragment(homefragment)
 
@@ -39,3 +40,4 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
