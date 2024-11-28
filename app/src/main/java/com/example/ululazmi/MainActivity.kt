@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import java.lang.Exception
 import android.widget.ImageView
+//import quizFragment
 
 
 class MainActivity : AppCompatActivity() {
@@ -16,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val homefragment = HomeFragment()
-        val quizfragment = QuizFragment()
+        //val quizfragment = quizFragment()
         val aboutfragment = AboutFragment()
 
 
@@ -27,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         bottomNavigation.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.navigation_home -> makeCurrentFragment(homefragment)
-                R.id.navigation_quiz -> makeCurrentFragment(quizfragment)
+               // R.id.navigation_quiz -> makeCurrentFragment(quizfragment)
                 R.id.navigation_about -> makeCurrentFragment(aboutfragment)
             }
             true

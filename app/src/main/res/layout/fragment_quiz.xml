@@ -4,54 +4,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".QuizFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        >
+        android:orientation="vertical"
+        android:padding="16dp">
+
         <TextView
-            android:id="@+id/question_text"
+            android:id="@+id/scoreTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="24sp"
+            android:layout_gravity="end"
+            android:textSize="18sp"
             android:textStyle="bold"
-            android:layout_marginTop="16dp"
-            android:text="What is the name of the first prophet in Islam?"/>
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
 
         <RadioGroup
-            android:id="@+id/radio_group"
-            android:layout_width="wrap_content"
+            android:id="@+id/optionsRadioGroup"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="16dp">
-            <RadioButton
-                android:id="@+id/answer1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Adam"/>
-            <RadioButton
-                android:id="@+id/answer2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Noah"/>
-            <RadioButton
-                android:id="@+id/answer3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Abraham"/>
+            android:layout_marginBottom="24dp">
         </RadioGroup>
 
         <Button
-            android:id="@+id/submit_button"
-            android:layout_width="wrap_content"
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Submit"
-            android:layout_marginTop="16dp"/>
+            android:text="Submit"/>
 
     </LinearLayout>
-
-
 </FrameLayout>
 

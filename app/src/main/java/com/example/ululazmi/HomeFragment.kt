@@ -1,6 +1,7 @@
 package com.example.ululazmi
 
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -69,9 +70,11 @@ class HomeFragment : Fragment() {
                 .commit()
         }
         view.findViewById<Button>(R.id.btnQuiz).setOnClickListener {
+            Log.d("HomeFragment", "Quiz button clicked")
             val quizFragment = QuizFragment.newInstance(param1 ?: "", param2 ?: "")
             parentFragmentManager.beginTransaction()
                 .replace(R.id.fragmentContainer, quizFragment)
+
                 .commit()
         }
         return view
